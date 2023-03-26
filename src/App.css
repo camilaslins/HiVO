@@ -1,0 +1,296 @@
+.app {
+    padding: 2rem;
+}
+
+.header{
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.header h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 24px;
+    gap: 8px;
+
+    font-size: 2rem;
+    position: absolute;
+    width: 152px;
+    height: 67px;
+    left: 47px;
+    top: 41px;
+}
+
+/* segunda tela - informações pessoais */
+
+.form-container {
+    padding: 0px;
+}
+
+input {
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 2px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 4px;
+}
+
+.namelabel {
+    position: absolute;
+    width: 480px;
+    height: 25px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    height: 50px;
+    left: 260px;
+    right: 417px;
+    top: 184px;
+}
+
+.seguinte {
+    position: absolute;
+    align-items: center;
+    background: #1890FF;
+    border: 1px solid #1890FF;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+    border-radius: 2px;
+    width: 129px;
+    height: 32px;
+    left: 855px;
+    top: 780px;
+
+    }
+
+#name {
+    position: absolute;
+    height: 50px;
+    left: 260px;
+    right: 417px;
+    top: 214px;
+    bottom: 416px;
+    border-radius: 2px;
+    width: 620px;
+
+}
+
+#nasc {
+    position: absolute;
+    width: 285px;
+    height: 50px;
+    left: 940px;
+    top: 214px;
+    bottom: 416px;
+    
+}
+
+.nasclabel {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    height: 50px;
+    left: 940px;
+    top: 185px;
+}
+
+#rg {
+    position: absolute;
+    height: 50px;
+    left: 260px;
+    right: 417px;
+    top: 320px;
+    width: 285px;
+}
+
+.rglabel {
+    position: absolute;
+    font-weight: 500;
+    font-size: 18px;
+    height: 50px;
+    left: 260px;
+    top: 290px;
+}
+
+select {
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 2px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 4px;
+}
+
+.cadastro {
+    text-align: center;
+}
+
+/* primeira tela */
+
+.p1 {
+    text-align: center;
+    padding: 0px;
+    position: absolute;
+    width: 800px;
+    height: 66px;
+    left: 510px;
+    top: 136px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.p2 {
+    position: absolute;
+    text-align: center;
+    width: 450px;
+    height: 88px;
+    left: 695px;
+    top: 226px;
+}
+
+.p3 {
+    position: absolute;
+    text-align: center;
+    width: 450px;
+    height: 66px;
+    top: 368px;
+    left: 695px;
+}
+
+.p4 {
+    position: absolute;
+    text-align: center;
+    width: 450px;
+    height: 88px;
+    left: 695px;
+    top: 510px;
+}
+
+.yes1{
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 49px;
+    height: 22px;
+    margin-left: 800px;
+    margin-top: 278px;
+    }
+
+.yeslabel {
+    position: absolute;
+    width: 49px;
+    height: 22px;
+    margin-left: 847px;
+    top: 333px;
+}
+
+.no1 {
+    position: absolute;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 49px;
+    height: 22px;
+    margin-left: 900px;
+    top: 333px;
+
+}
+
+.nolabel {
+    position: absolute;
+    width: 49px;
+    height: 22px;
+    margin-left: 947px;
+    top: 333px;
+}
+
+.yes2{
+    position: absolute;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 49px;
+    height: 22px;
+    margin-left: 800px;
+    top: 450px;
+    }
+
+.yeslabel2 {
+    position: absolute;
+    width: 49px;
+    height: 22px;
+    margin-left: 847px;
+    top: 451px;
+}
+
+.no2 {
+    position: absolute;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 49px;
+    height: 22px;
+    margin-left: 900px;
+    top: 450px;
+}
+
+.nolabel2 {
+    position: absolute;
+    width: 49px;
+    height: 22px;
+    margin-left: 948px;
+    top: 451px;
+}
+
+.yes3 {
+    position: absolute;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 49px;
+    height: 22px;
+    margin-left: 800px;
+    top: 650px;
+}
+
+.yeslabel3 {
+    position: absolute;
+    width: 49px;
+    height: 22px;
+    margin-left: 847px;
+    top: 650px;
+}
+
+.no3 {
+    position: absolute;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 49px;
+    height: 22px;
+    margin-left: 900px;
+    top: 650px;
+}
+
+.nolabel3 {
+    position: absolute;
+    width: 49px;
+    height: 22px;
+    margin-left: 947px;
+    top: 650px;
+}
